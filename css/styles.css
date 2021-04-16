@@ -1,0 +1,166 @@
+::selection{
+    color: #fff9f9;
+    background-color: #ec7171;
+}
+
+body{
+    background-color: #fff9f9;
+    color: #907b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+h1, h2{
+    color: #715c5c;
+    text-align: center;
+}
+
+h3{
+    color: #ec7171;
+}
+
+h4, h5{
+    color: #e07e7e;
+}
+
+h4{
+    padding-left: 1vw;
+}
+
+h5{
+    padding-left: 2vw;
+}
+
+p{
+    text-align: justify;
+}
+
+.description-1{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.description-2{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.tool-div{
+    display: inline-flex;
+    width: 100%;
+}
+
+.tool-name{
+    width: 200px;
+}
+
+.tool-level{
+    height: 75%;
+    background-color: #ec7171;
+    display: flex;
+    align-items: center;
+}
+
+.tool-level-container{
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.tool-level p{
+    padding-left: 1vw;
+    color: #fff9f9;
+    font-weight: bold;
+}
+
+.container{
+    width: 50vw;
+}
+
+@media (max-width: 1399.98px){
+    .container{
+        width: 55vw;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .container{
+        width: 60vw;
+    }
+
+    .tool-level p{
+        padding-left: 2vw;
+    }
+}
+
+@media (max-width: 991.98px) {
+    
+
+    h4{
+        padding-left: 2vw;
+    }
+    
+    h5{
+        padding-left: 4vw;
+    }
+
+    .tool-level p{
+        padding-left: 3vw;
+    }
+
+    .description-1{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .description-2{
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .container{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container{
+        width: 90vw;
+    }
+}
+
+/* Levels */
+
+.level-1{
+    width: 10%;
+}
+.level-2{
+    width: 20%;
+}
+.level-3{
+    width: 30%;
+}
+.level-4{
+    width: 40%;
+}
+.level-5{
+    width: 50%;
+}
+.level-6{
+    width: 60%;
+}
+.level-7{
+    width: 70%;
+}
+.level-8{
+    width: 80%;
+}
+.level-9{
+    width: 90%;
+}
+.level-10{
+    width: 100%;
+}
