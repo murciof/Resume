@@ -49,6 +49,10 @@ p{
     margin: .8rem 0;
 }
 
+a, a:link, a:visited, a:hover, a:active{
+    color: #ec7171;
+}
+
 hr{
     opacity: 0.4;
 }
@@ -121,6 +125,15 @@ hr{
     padding-left: 2rem;
 }
 
+.university-large{
+    flex-direction: column;
+
+}
+
+.university-large h6{
+    margin-left: 0 !important;
+}
+
 .projects-container{
     padding-left: 1rem !important;
 }
@@ -149,6 +162,10 @@ hr{
     margin-right: .75rem;
 }
 
+.experience-container .details-container{
+    margin-bottom: 0;
+} 
+
 .container{
     width: 50vw;
 }
@@ -159,6 +176,11 @@ hr{
 
 .project-description{
     font-weight: normal !important;
+}
+
+.patent-data p{
+    margin: .6rem 0;
+    margin-left: 1rem;
 }
 
 @media (max-width: 1399.98px){
