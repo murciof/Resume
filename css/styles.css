@@ -61,6 +61,11 @@ hr{
     padding-left: 1rem;
 }*/
 
+.language-selector{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .description-2{
     padding-left: 2rem;
     margin: 0;
@@ -268,4 +273,8 @@ hr{
 }
 .level-10{
     width: 100%;
+}
+
+#pt{
+    display: none;
 }
